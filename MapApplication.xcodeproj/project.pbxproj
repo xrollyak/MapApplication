@@ -15,6 +15,9 @@
 		03277F082628512B00EBE3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03277F062628512B00EBE3BA /* LaunchScreen.storyboard */; };
 		03277F132628546300EBE3BA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 03277F122628546300EBE3BA /* SnapKit */; };
 		03277F1C262855F200EBE3BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03277F1B262855F200EBE3BA /* ViewController.swift */; };
+		3F3DF4D92628A3670039AC29 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DF4D82628A3670039AC29 /* MapAnnotation.swift */; };
+		3F3DF4DD2628B1670039AC29 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DF4DC2628B1670039AC29 /* LocationManager.swift */; };
+		3F3DF4E12628BFEE0039AC29 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3DF4E02628BFEE0039AC29 /* WebController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		03277F072628512B00EBE3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03277F092628512C00EBE3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03277F1B262855F200EBE3BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3DF4D82628A3670039AC29 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		3F3DF4DC2628B1670039AC29 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3F3DF4E02628BFEE0039AC29 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,17 +80,10 @@
 		03277F152628557C00EBE3BA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3F3DF4DB2628B14C0039AC29 /* Location */,
 				03277F172628559400EBE3BA /* Controllers */,
-				03277F162628558500EBE3BA /* Location */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		03277F162628558500EBE3BA /* Location */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Location;
 			sourceTree = "<group>";
 		};
 		03277F172628559400EBE3BA /* Controllers */ = {
@@ -108,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				03277F1B262855F200EBE3BA /* ViewController.swift */,
+				3F3DF4E02628BFEE0039AC29 /* WebController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -123,6 +123,7 @@
 		03277F202628633B00EBE3BA /* Location */ = {
 			isa = PBXGroup;
 			children = (
+				3F3DF4D72628A31E0039AC29 /* Models */,
 				03277F212628634400EBE3BA /* Controller */,
 			);
 			path = Location;
@@ -134,6 +135,22 @@
 				03277EFF2628512900EBE3BA /* MapViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F3DF4D72628A31E0039AC29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DF4D82628A3670039AC29 /* MapAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F3DF4DB2628B14C0039AC29 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3F3DF4DC2628B1670039AC29 /* LocationManager.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03277F002628512900EBE3BA /* MapViewController.swift in Sources */,
+				3F3DF4D92628A3670039AC29 /* MapAnnotation.swift in Sources */,
+				3F3DF4DD2628B1670039AC29 /* LocationManager.swift in Sources */,
+				3F3DF4E12628BFEE0039AC29 /* WebController.swift in Sources */,
 				03277EFC2628512900EBE3BA /* AppDelegate.swift in Sources */,
 				03277F1C262855F200EBE3BA /* ViewController.swift in Sources */,
 				03277EFE2628512900EBE3BA /* SceneDelegate.swift in Sources */,
